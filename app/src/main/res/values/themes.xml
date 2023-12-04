@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Test2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Test2" parent="Base.Theme.Test2" />
+
+    <style name="Apptheme_NormalCustomer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="navbar_img_color">@color/primary_navbar_img</item>
+    </style>
+
+    <style name="Apptheme_VipCustomer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="navbar_img_color">@color/vip_navbar_img</item>
+        <item name="header_color">@color/vip_header</item>
+    </style>
+
+    <style name="navbar">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="navbar_img">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="Greeting_size">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="linear_default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>

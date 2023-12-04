@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navbar_icon_width">40dp</dimen>
+    <dimen name="navbar_icon_height">40dp</dimen>
+    <dimen name="greetings_size">30dp</dimen>
+</resources>
